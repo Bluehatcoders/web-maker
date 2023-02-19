@@ -444,9 +444,10 @@
     jest-validate "^23.5.0"
     pkg-conf "^2.1.0"
 
-"@lingui/core@2.7.4":
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-2.7.4.tgz#66499439e35d4de7fbd861b6c83fa07589606538"
+"@lingui/core@2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@lingui/core/-/core-2.9.2.tgz#e2ba14862a29ff6b84c9f5d0f59e6ad657f868c5"
+  integrity sha512-prrEGlhbvqbyvHMfgKXaaGDM4cGCofca1lOfIOEEX1rZreRjG7Y+cga0oEEQJ9xS59uMht9GGFOwQJsGHYIU0g==
   dependencies:
     babel-runtime "^6.26.0"
     make-plural "^4.1.1"
@@ -459,15 +460,16 @@
     "@lingui/babel-plugin-transform-react" "2.7.4"
     babel-plugin-macros "^2.2.0"
 
-"@lingui/react@^2.7.0":
-  version "2.7.4"
-  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-2.7.4.tgz#b336b2aac3a1848b7532a657bff3cb6d04e19464"
+"@lingui/react@^2.9.2":
+  version "2.9.2"
+  resolved "https://registry.yarnpkg.com/@lingui/react/-/react-2.9.2.tgz#129802cf7e4589f5179b295d4935af0430e0d081"
+  integrity sha512-grlarLgJt6vu9wkvGetLunbrImRlL5bsnc4CdtXCNwm0r+8srI+mow5PimtK+MrtOSjXSqLdt/giMYFBE3MOSw==
   dependencies:
-    "@lingui/core" "2.7.4"
+    "@lingui/core" "2.9.2"
     babel-runtime "^6.26.0"
     hash-sum "^1.0.2"
-    hoist-non-react-statics "3.0.1"
-    prop-types "^15.6.2"
+    hoist-non-react-statics "3.3.0"
+    prop-types "^15.7.2"
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -5396,11 +5398,12 @@ hmac-drbg@^1.0.0:
     minimalistic-assert "^1.0.0"
     minimalistic-crypto-utils "^1.0.1"
 
-hoist-non-react-statics@3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.0.1.tgz#fba3e7df0210eb9447757ca1a7cb607162f0a364"
+hoist-non-react-statics@3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz#b09178f0122184fb95acf525daaecb4d8f45958b"
+  integrity sha512-0XsbTXxgiaCDYDIWFcwkmerZPSwywfUqYmwT4jzewKTQSWoE6FCMoUVOeBJWK3E/CrWbxRG3m5GzY4lnIwGRBA==
   dependencies:
-    react-is "^16.3.2"
+    react-is "^16.7.0"
 
 home-or-tmp@^2.0.0:
   version "2.0.0"
@@ -9038,6 +9041,15 @@ prop-types@^15.6.1, prop-types@^15.6.2:
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
+prop-types@^15.7.2:
+  version "15.8.1"
+  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
+  integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
+  dependencies:
+    loose-envify "^1.4.0"
+    object-assign "^4.1.1"
+    react-is "^16.13.1"
+
 proto-list@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/proto-list/-/proto-list-1.2.4.tgz#212d5bfe1318306a420f6402b8e26ff39647a849"
@@ -9329,7 +9341,12 @@ react-inspector@^2.3.0:
     is-dom "^1.0.9"
     prop-types "^15.6.1"
 
-react-is@^16.3.2, react-is@^16.8.1:
+react-is@^16.13.1, react-is@^16.7.0:
+  version "16.13.1"
+  resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
+  integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-is@^16.8.1:
   version "16.8.3"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.3.tgz#4ad8b029c2a718fc0cfc746c8d4e1b7221e5387d"
 
