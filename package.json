@@ -78,7 +78,7 @@
 		"preact-router": "^2.5.7",
 		"prettier": "^1.16.4",
 		"react-inspector": "^2.3.0",
-		"split.js": "1.3.4"
+		"split.js": "1.6.5"
 	},
 	"jest": {
 		"verbose": true,
